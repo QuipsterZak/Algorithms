@@ -11,3 +11,7 @@ Logarithms(flip of exponentials): 10^2 = 100 | logb10 100 = 2
 
 Binary search only works when the list is sorted.
 
+-Algorithms speed is measured by the growth of the number of operations, based on the size of the input.
+-Run time is expressed in O notation
+-O(log n) gets faster than O(n) the more elements are in the list.
+-O(n/x) or O(n*x) is still O(n) 'x being a constant'

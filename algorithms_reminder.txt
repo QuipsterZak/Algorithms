@@ -1,0 +1,14 @@
+===Binary Search===
+low = 0 || high = len(list) -1
+while low <= high
+mid = (low + high) // 2
+guess = list[mid]
+if guess > item => high = mid - 1
+if item > guess => low = mid + 1
+
+===Big O===
+O(log n) 'log time' : binary search
+O(n) 'linear time' : simple search
+O(n log n) : quicksort
+O(n^2) : selection sort
+O(n!) : traveling salesperson
